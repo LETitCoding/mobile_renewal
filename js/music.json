@@ -1,0 +1,150 @@
+[
+  {
+    "category":"new",
+    "imgSrc":"images/new_1.jpg",
+    "title":"Happier Than Ever",
+    "artist":"Billie Eilish",
+    "runtime":"재생시간(298)"
+  },
+  {
+    "category":"new",
+    "imgSrc":"images/new_2.jpg",
+    "title":"gg bb xx",
+    "artist":"LANY",
+    "runtime":"재생시간(201)"
+  },
+  {
+    "category":"new",
+    "imgSrc":"images/new_3.jpg",
+    "title":"All I Want",
+    "artist":"Genix",
+    "runtime":"재생시간(252)"
+  },
+  {
+    "category":"new",
+    "imgSrc":"images/new_4.jpg",
+    "title":"Wonder",
+    "artist":"Shawn Mendes",
+    "runtime":"재생시간(172)"
+  },
+  {
+    "category":"new",
+    "imgSrc":"images/new_5.jpg",
+    "title":"If It Weren’t For You",
+    "artist":"Christopher",
+    "runtime":"재생시간(172)"
+  },
+  {
+    "category":"new",
+    "imgSrc":"images/new_6.jpg",
+    "title":"Movie",
+    "artist":"Blake Rose",
+    "runtime":"재생시간(247)"
+  },
+  {
+    "category":"new",
+    "imgSrc":"images/new_7.jpg",
+    "title":"Hurt Like That",
+    "artist":"Katelyn Tarver",
+    "runtime":"재생시간(219)"
+  },
+  {
+    "category":"new",
+    "imgSrc":"images/new_8.jpg",
+    "title":"Queendom",
+    "artist":"Red Velvet",
+    "runtime":"재생시간(247)"
+  },
+  {
+    "category":"new",
+    "imgSrc":"images/new_9.jpg",
+    "title":"Angel Baby",
+    "artist":"Troye Sivan",
+    "runtime":"재생시간(220)"
+  },
+  {
+    "category":"new",
+    "imgSrc":"images/new_10.jpg",
+    "title":"Certified Lover Boy",
+    "artist":"Drake",
+    "runtime":"재생시간(247)"
+  },
+  {
+    "category":"week",
+    "imgSrc":"images/week_1.jpg",
+    "title":"Therapy",
+    "artist":"Anne-Marie",
+    "runtime":"재생시간(240)"
+  },
+  {
+    "category":"recent",
+    "imgSrc":"images/recent_1.jpg",
+    "title":"Bad",
+    "artist":"Christopher",
+    "runtime":"재생시간(240)"
+  },
+  {
+    "category":"recent",
+    "imgSrc":"images/recent_2.jpg",
+    "title":"NEXT EPISODE",
+    "artist":"AKMU",
+    "runtime":"재생시간(240)"
+  },
+  {
+    "category":"recent",
+    "imgSrc":"images/recent_3.jpg",
+    "title":"Ghost Of You",
+    "artist":"5 Seconds of Summer",
+    "runtime":"재생시간(240)"
+  },
+  {
+    "category":"recent",
+    "imgSrc":"images/recent_4.jpg",
+    "title":"distance",
+    "artist":"Ruel",
+    "runtime":"재생시간(240)"
+  },
+  {
+    "category":"recent",
+    "imgSrc":"images/recent_5.jpg",
+    "title":"Sing It With Me (Acoustics)",
+    "artist":" JP Cooper & Astrid S",
+    "runtime":"재생시간(240)"
+  },
+  {
+    "category":"best",
+    "imgSrc":"images/best_1.jpg",
+    "title":"if we never met",
+    "artist":"John K",
+    "runtime":"재생시간(240)"
+  },
+  {
+    "category":"best",
+    "imgSrc":"images/best_2.jpg",
+    "title":"Strangers",
+    "artist":"Sigrid",
+    "runtime":"재생시간(240)"
+  },
+  {
+    "category":"best",
+    "imgSrc":"images/best_3.jpg",
+    "title":"What We Had",
+    "artist":"Sody",
+    "runtime":"재생시간(240)"
+  },
+  {
+    "category":"best",
+    "imgSrc":"images/best_4.jpg",
+    "title":"What Am I",
+    "artist":"Why Don't We",
+    "runtime":"재생시간(240)"
+  },
+  {
+    "category":"best",
+    "imgSrc":"images/best_5.jpg",
+    "title":"7years",
+    "artist":"Lukas Graham",
+    "runtime":"재생시간(240)"
+  }
+ 
+]

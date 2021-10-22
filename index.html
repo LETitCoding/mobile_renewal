@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify</title>
+
+  <link rel="shortcut icon" type="image/x-icon" href="images/spotify_favicon.ico">
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+ 
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="js/script.js"></script>
+
+</head>
+<body>
+  <header>
+    <nav class="gnb">
+      <h1><a href=""><span class="blind">스포티파이</span></a></h1>
+      <ul class="icon">
+        <li><a href="" class="alert"><i class="xi-cog"><span class="blind">설정</span></i></a></li>
+        <li><a href="" class="setting"><i class="xi-heart-o"><span class="blind">설정</span></i></a></li>
+      </ul>
+    </nav>
+
+    <section class="search">
+      <div class="inner">
+        <form action="" method="get">
+          <fieldset>
+            <legend class="blind">검색</legend>
+            <label for="search" class="blind">검색창</label>
+            <input type="text" class="input-box" placeholder="Search in All"/>
+            <button type="button" class="btn"><i class="xi-search"><span class="blind">검색</span></i></button>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+  </header>
+
+ 
+  <section class="side_menu">
+    <div class="side_tit">
+      <a href="" class="close_search"><em>Skip</em></a>
+      <h2>Music You Like</h2>
+      <p>Choose your favorite music and artist</p>
+    </div>
+    <div class="keyword">
+      <ul>
+        <li><a href="">Pop</a></li>
+        <li><a href="">Romaintic</a></li>
+        <li><a href="">Indie</a></li>
+        <li><a href="">Clssical</a></li>
+        <li><a href="">Dance</a></li>
+        <li><a href="">Acoustic</a></li>
+        <li><a href="">Jazz</a></li>
+        <li><a href="">Workout</a></li>
+        <li><a href="">Daily&nbsp;Mix</a></li>
+        <li><a href="">Drive</a></li>
+        <li><a href="">Trevel</a></li>
+        <li><a href="">K-pop</a></li>
+      </ul>
+    </div>
+    <div class="artist">
+      <h2>Artist</h2>
+      <ul>
+        <li>
+          <a href="">
+          <div class="img_wrap">
+            <img src="images/artist_1.jpg" alt="Troye sivan">
+          </div>
+          <span>Troye sivan</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+          <div class="img_wrap">
+            <img src="images/artist_2.jpg" alt="Johnny Orlando">
+          </div>
+          <span>Johnny Orlando</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+          <div class="img_wrap">
+            <img src="images/lauv.webp" alt="lauv">
+          </div>
+          <span>lauv</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+          <div class="img_wrap">
+            <img src="images/artist_3.jpg" alt="New Hope club">
+          </div>
+          <span>New Hope club</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+          <div class="img_wrap">
+            <img src="images/artist_4.jpg" alt="Conan Gray">
+          </div>
+          <span>Conan Gray</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+          <div class="img_wrap">
+            <img src="images/artist_5.jpg" alt="Sigrid">
+          </div>
+          <span>Sigrid</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+          <div class="img_wrap">
+            <img src="images/artist_6.jpg" alt="Etham">
+          </div>
+          <span>Etham</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+          <div class="img_wrap">
+            <img src="images/artist_7.jpg" alt="Shawn mendes">
+          </div>
+          <span>Shawn mendes</span>
+          </a>
+        </li>
+        <li>
+          <a href="">
+          <div class="img_wrap">
+            <img src="images/artist_8.jpg" alt="Bazzi">
+          </div>
+          <span>Bazzi</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="settings">
+    <div class="top">
+      <a href=""><i class="fi-rs-angle-left"><span class="blind">프로필아이콘</span></i></a>
+      <h2>settings</h2>
+    </div>
+    <div class="profile">
+      <a href=""><i class="xi-user thumb"><span class="blind">프로필</span></i></a>
+      <div class="p_txt">
+        <span>login</span>
+        <em>View Profile</em>
+      </div>
+      <a href=""><i class="fi-rs-angle-right"><span class="blind">프로필아이콘</span></i></a>
+      </div>
+    </div>
+    <div class="s_list">
+      <h3>Music Listening Preference</h3>
+      <ul>
+        <li>
+          <span>Music Languages</span>
+          <div class="btn on"><span class="blind">설정버튼</span></div>
+        </li>
+        <li>
+          <span>Streaming Quality</span>
+          <div class="btn"><span class="blind">설정버튼</span></div>
+        <li>
+          <span>Night Mode</span>
+          <div class="btn"><span class="blind">설정버튼</span></div>
+        </li>
+        <li>
+          <span>Devices</span>
+          <div class="btn"><span class="blind">설정버튼</span></div>
+          <p>High Resolution images and video</p>
+        </li>
+        <li>
+          <span>Show Licks on Player</span>
+          <div class="btn"><span class="blind">설정버튼</span></div>
+        </li>
+        <li>
+          <span>Sleep Timer</span>
+          <div class="btn"><span class="blind">설정버튼</span></div>
+        </li>
+        <li>
+          <span>Data Saver</span>
+          <div class="btn"><span class="blind">설정버튼</span></div>
+          <p>Saves 70% of your data</p>
+        </li>
+        <li>
+          <span>About</span>
+          <div class="btn"><span class="blind">설정버튼</span></div>
+        </li>
+      </ul>
+      <div class="logout"><a href="">Log out</a></div>
+    </div>
+  </section>
+
+  <main>
+
+    <!-- main_visual -->
+    <section class="visual">
+      <div class="tit">
+        <h2><a href="">Rcommneded</a></h2>
+        <em class="txt">See All</em>
+      </div>
+      <div class="swiper visual_slide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+          <div class="play"><a href=""><i class="fas fa-play"></i></a></div>
+            <div class="img_wrap"><img src="images/main_1.jpg" alt="Nina Nesbitt Last December"></div>
+            <div class="des">
+              <h3>Nina Nesbitt</h3>
+              <em>Last December</em>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="play"><a href=""><i class="fas fa-play"></i></a></div>
+            <div class="img_wrap"><img src="images/main_2.jpg" alt="Jeremy Zucker Chelsea Cutler please"></div>
+            <div class="des">
+              <h3>Jeremy Zucker&amp;Chelsea Cutler</h3>
+              <em>please</em>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="play"><a href=""><i class="fas fa-play"></i></a></div>
+            <div class="img_wrap"><img src="images/main_3.jpg" alt="Conan Gray Generation Why"></div>
+            <div class="des">
+              <h3>Conan Gray</h3>
+              <em>Generation Why</em>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- list -->
+    <section class="list">
+      <div class="tit">
+        <h2><a href="">Songs</a></h2> 
+        <a href=""><i class="xi-refresh tit-icon"><span class="blind">새로고침</span></i></a>
+      </div>
+        <ul>
+          <li>
+            <a href=""><img src="images/song_1.jpg" alt="">
+            <div class="name">
+              <em>Common Sense</em>
+              <h3>Joshua Bassett</h3>
+            </div>
+            <i class="xi-ellipsis-v"><span class="blind">재생메뉴</span></i>
+            </a>
+          </li>
+          <li>
+            <a href=""><img src="images/song_2.jpg" alt="">
+            <div class="name">
+              <em>I Know Better</em>
+              <h3>Maxamillion</h3>
+            </div>
+            <i class="xi-ellipsis-v"><span class="blind">재생메뉴</span></i>
+            </a>
+          </li>
+          <li>
+            <a href=""><img src="images/song_3.jpg" alt="">
+            <div class="name">
+              <em>I Like Me Better</em>
+              <h3>Lauv</h3>
+            </div>
+            <i class="xi-ellipsis-v"><span class="blind">재생메뉴</span></i>
+            </a>
+          </li>
+          <li>
+            <a href=""><img src="images/song_4.jpg" alt="">
+            <div class="name">
+              <em>Saturday Nights</em>
+              <h3>Khalid</h3>
+            </div>
+            <i class="xi-ellipsis-v"><span class="blind">재생메뉴</span></i>
+            </a>
+          </li>
+        </ul>
+    </section>
+
+    <section class="new">
+      <div class="tit">
+        <h2><a href="">New Music</a></h2>
+        <em class="txt">See All</em>
+      </div>
+      <div class="swiper new_slide">
+        <ul class="swiper-wrapper">
+        </ul>
+      </div>
+    </section>
+
+    <section class="recent">
+      <div class="tit">
+        <h2><a href="">Rcently Played</a></h2>
+        <em class="txt">See All</em>
+      </div>
+      <div class="swiper recent_slide">
+        <ul class="swiper-wrapper">
+        </ul>
+      </div>
+    </section>
+
+    <!-- week -->
+    <section class="week">
+      <div class="tit">
+        <h2><a href="">Weekly Top</a></h2>
+        <em class="txt">See All</em>
+      </div>
+      <div class="box">
+        <h3>sentimental music<br>Weekly Top 100</h3>
+        <div class="group_img">
+          <ul>
+            <li><img src="images/week_1.jpg" alt="ann marie"></li>
+            <li><img src="images/week_2.jpg" alt="jonny Orlando"></li>
+            <li><img src="images/week_3_.jpg" alt="coldplay"></li>
+            <li><img src="images/week_4.jpg" alt="virginia to vegas"></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="best">
+      <div class="tit">
+        <h2><a href="">Best</a></h2>
+        <em class="txt">See All</em>
+      </div>
+      <div class="swiper best_slide">
+        <ul class="swiper-wrapper">
+        </ul>
+      </div>
+    </section>
+
+    <!-- info -->
+    <section class="info">
+      <div class="tit">
+        <h2><a href="">Artist</a></h2>
+        <em class="txt">See All</em>
+      </div>
+      <div class="inner">
+        <div class="contents">
+          <img src="images/lauv.webp" alt="Vertified artist">
+          <h3>Verified artist</h3>
+          <div class="title">
+            <em>Lauv</em>
+            <p class="ellipsis">For more than five years, Lauv has quietly and steadily become one of pop’s brightest rising stars. He has released his music completely independently with 5 billion streams to his name. He has written for some of the biggest stars in the world, performed on late night talk shows, played stadiums opening for Ed Sheeran, and sold out shows in 21 countries as a headliner. And he did all of this before dropping his first album.
+              Lauv’s official debut album, ~how i'm feeling~, came out in March 2020</p>
+          </div>
+          <div class="btn"><a href=""><span>Explore</span></a></div>
+        </div>
+    </div>
+    </section><!--info-->
+ 
+
+    <section class="playlist">
+      <div class="tit">
+        <h2><a href="">VIBE SoundTrack</a></h2>
+        <em class="txt">See All</em>
+      </div>
+      <div class="box">
+        <div class="inner">
+          <div class="item thumb">
+            <img src="images/p_list_1_.jpg" alt="if we never met">
+          </div>
+          <div class="item txt_wrap">
+            <em>Playlist</em>
+            <h3>Memories of the trip in the song</h3>
+            <div class="icon">
+              <a href=""><i class="fas fa-play"><span class="blind">재생</span></i></a>
+              <a href=""><i class="xi-ellipsis-v"><span class="blind">목록보기</span></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="add">
+        <div class="inner">
+          <a href=""><i class="xi-plus-thin"><span class="blind">재생목록추가</span></i></a>
+          <a href=""><span>Add a new palylist</span></a>
+        </div>
+      </div>
+
+      <div class="p_list">
+        <ul>
+          <li>
+            <a href="">
+              <img src="images/p_list_2.jpg" alt="Good to listen to in a comfortable space.">
+              <div class="name">
+                <em>Good to listen to<br>in a comfortable space.</em>
+              </div>
+              <i class="xi-ellipsis-v"><span class="blind">재생메뉴</span></i>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="images/p_list_3.jpg" alt="My favorite song every day">
+              <div class="name">
+                <em>My favorite song<br>every day</em>
+              </div>
+              <i class="xi-ellipsis-v"><span class="blind">재생메뉴</span></i>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="images/p_list_4.jpg" alt="Music that fills the emotions">
+              <div class="name">
+                <em>Music that fills<br>the emotions</em>
+              </div>
+              <i class="xi-ellipsis-v"><span class="blind">재생메뉴</span></i>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="images/p_list_5.jpg" alt="Recharge our confidence for you">
+              <div class="name">
+                <em>Recharge our<br>confidence for you</em>
+              </div>
+              <i class="xi-ellipsis-v"><span class="blind">재생메뉴</span></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  
+  </main>
+
+  
+  <footer>
+    <div class="tab_bar">
+      <div class="wrap">
+        <div class="bar_1">
+          <div class="info">
+            <a href="" class="img"><img src="images/play_bar.jpg" alt="why don't we love back"></a>
+            <div class="name">
+              <em>Love back</em>
+              <h3>Why Don't We</h3>
+            </div>
+          </div>
+          <div class="bar_icon">
+            <a href=""><i class="xi-shuffle icon"><span class="blind">이전</span></i></a>
+            <a href=""><i class="fas fa-backward"><span class="blind">이전</span></i></a>
+            <a href="" class="play"><i class="fas fa-play"><span class="blind">재생</span></i></a>
+            <a href=""><i class="fas fa-forward"><span class="blind">다음</span></i></a>
+            <a href=""><i class="xi-renew icon"><span class="blind">이전</span></i></a>
+          </div>
+        </div>
+        <a href="" class="close"><span class="blind">닫기</span></a>
+      </div>
+      <div class="wrap wrap_2">
+        <ul class="bar_2">
+          <li>
+            <a href="">
+              <i class="fas fa-home"></i>
+              <div class="name">Home</div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fas fa-headphones-alt"></i>
+              <div class="name">For You</div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="far fa-folder"></i>
+              <div class="name">My Music</div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fas fa-bars"></i>
+              <div class="name">Menu</div>
+            </a>
+          </li>
+        </ul>
+      </div>  
+    </div>
+  </footer>
+
+</body>
+</html>
